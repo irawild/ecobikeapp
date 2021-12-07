@@ -5,8 +5,8 @@ const Counter = (props) => {
   const [count, setCount] = useState(0);
 
   function getCounterClass() {
-    if (count > 0) return "positive"
-    if (count < 0) return "negative"
+    if (count > 0) return "counter__title--increment"
+    if (count < 0) return "counter__title--decrement"
     return ""
   }
 
@@ -15,11 +15,11 @@ const Counter = (props) => {
   }
 
   return (
-    <div className="Counter">
+    <div className="counter">
       <div>
-        <h2 className={getCounterClass()}>{count}</h2>
-        <button className="Increment" onClick={() => changeCounter(1)}>Increment</button>
-        <button className="Decrement" onClick={() => changeCounter(-1)}>Decrement</button>
+        <h2 className={`counter__title ${getCounterClass()}`}>{count}</h2>
+        <button className="counter__button counter__button--increment" onClick={() => changeCounter(1)}>Increment</button>
+        <button className="counter__button counter__button--decrement" onClick={() => changeCounter(-1)}>Decrement</button>
       </div>
     </div>
   );
