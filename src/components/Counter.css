@@ -1,0 +1,36 @@
+.Counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+}
+
+.Counter h2 {
+    font-size: 1.4rem;    
+}
+
+.Counter .positive {
+    color: green;
+}
+
+.Counter .negative {
+    color: red;
+}
+
+.Counter button {
+    font-size: 1.4rem;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.Increment {
+    border-color: darkgreen;
+    background-color: darkgreen;
+}
+
+.Decrement {
+    border-color: darkred;
+    background-color: darkred;
+}
