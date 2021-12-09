@@ -4,12 +4,10 @@ exports[`Snapshot testing section renders when there are multiple items 1`] = `
 <div
   className="clients"
 >
-  <ul>
-    <il />
-    <il />
-    <il />
-    <il />
-  </ul>
+  <h4 />
+  <h4 />
+  <h4 />
+  <h4 />
 </div>
 `;
 
@@ -25,8 +23,6 @@ exports[`Snapshot testing section renders when there is one item 1`] = `
 <div
   className="clients"
 >
-  <ul>
-    <il />
-  </ul>
+  <h4 />
 </div>
 `;
