@@ -5,9 +5,11 @@ const Clients = (props) => {
     {
         console.log(props)
         return <div className="clients">
+            <ul>
             {props.clientsList.map((client, i) => {
-                return <h4 key={i}>{client.name}</h4>
+                return <il key={i}>{client.name}</il>
             })}
+            </ul>
         </div>
     }
     else{
