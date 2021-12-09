@@ -4,10 +4,14 @@ import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Counter from './components/Counter'
+import Clients from './components/Clients'
+
+const clientsList = [{name: 'Júnior'}, {name: 'Maria'}]
 
 ReactDOM.render(
   <React.StrictMode>
     <Counter />
+    <Clients clientsList={clientsList} />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot testing section renders when there are multiple items 1`] = `
+<div
+  className="clients"
+>
+  <h4 />
+  <h4 />
+  <h4 />
+  <h4 />
+</div>
+`;
+
+exports[`Snapshot testing section renders when there are no items 1`] = `
+<div
+  className="clients"
+>
+  No clients found
+</div>
+`;
+
+exports[`Snapshot testing section renders when there is one item 1`] = `
+<div
+  className="clients"
+>
+  <h4 />
+</div>
+`;
